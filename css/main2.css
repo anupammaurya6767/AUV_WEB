@@ -38,6 +38,10 @@
     font-size: 1.3em;
 }
 
+.menu i{
+   margin-right: 10px;
+}
+
  ul{
     list-style: none;
 }
