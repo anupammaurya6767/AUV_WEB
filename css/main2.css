@@ -60,13 +60,16 @@
     color: white;
   }
 
+.menu-links{
+    font-size: 1.2em;
+}
 
   
 
 
 @media screen and (min-width:996px){
     #logo{
-        width: 35%;
+        width: 45%;
      
       }
     #menu{
