@@ -1,0 +1,49 @@
+.post-img img{
+    width: 100%;
+}
+
+.post-img{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.post{
+    display: flex;
+    justify-content: space-around;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+}
+
+.post-content{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.post-data{
+    width: 80%;
+}
+
+@media (max-width: 880px) {
+  .post{
+      flex-direction: column;
+  }
+
+  .main{
+      margin-left: 0;
+  }
+
+  .post-content{
+      margin: 0px 100px;
+  }
+
+  .post-data{
+      width: 90%;
+      margin: 0px auto;
+  }
+
+}
